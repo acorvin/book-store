@@ -19,8 +19,8 @@ def menu():
 
     while user_input != "5":
         if user_input == "1":
-            name = input("Enter book title: "),
-            author = input("Enter author name: "),
+            name = input("Enter book title: ")
+            author = input("Enter author name: ")
             rating = int(input("Enter book rating: "))
 
             database.add_book(connection, name, author, rating)
